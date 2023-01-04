@@ -12,7 +12,6 @@ Bankkonto - mittel
             boolean: sendMoney() - schickt einen Betrag an ein anderes Konto und passt das Guthaben an, 
                     gibt false oder true zurück wenn es erfolgreich war oder nicht
             void: payIn() - zahlt Geld in das Konto ein
-
 */
 
 public class Konto {
@@ -20,7 +19,6 @@ public class Konto {
     Bankkonto b1 = new Bankkonto("Max Mustermann", "123456");
     b1.sendMoney("John Doe", 10.0f);
     b1.payIn(3000.0f);
-
   }
 }
 
